@@ -1,0 +1,249 @@
+#title{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+     .box{
+        width: 30%;
+    }
+    #box1{
+    background-color: grey;
+    /* width: 32%; */
+    height: 150px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: thick solid black;
+}
+#box1 p{
+    position: relative;
+    top:75px;
+}
+#innerBox1{
+    background-color: red;
+    width: 20%;
+    height: 50%;
+    text-align: center;
+    position: relative;
+    float: right;
+    bottom: 72px;
+    left: 5px;
+    border: thick solid black;
+    /* border-style:inherit;
+    border-width: 10px;
+    border-color: black; */
+}
+#box2{
+    background-color: grey;
+    /* width: 32%; */
+    height: 150px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: thick solid black;
+}
+#box2 p{
+    position: relative;
+    top:75px;
+}
+#innerBox2{
+    background-color: green;
+    width: 20%;
+    height: 50%;
+    text-align: center;
+    position: relative;
+    float: right;
+    bottom: 72px;
+    left: 5px;
+    border: thick solid black
+}
+#box3{
+    background-color: grey;
+    /* width: 32%; */
+    height: 150px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: thick solid black;
+}
+#box3 p{
+    position: relative;
+    top:75px;
+}
+#innerBox3{
+    background-color: blue;
+    width: 20%;
+    height: 50%;
+    text-align: center;
+    position: relative;
+    float: right;
+    bottom: 55px;
+    left: 4px;
+    border: thick solid black
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+     #boxes{
+        width: 80%;
+    }
+    #box1{
+    background-color: grey;
+    width: 40%;
+    /* min-width: 786px; */
+    height: 150px;
+    float: left;
+    margin-left: 70px;
+    margin-right: 5px;
+    border: thick solid black;
+}
+#box1 p{
+    position: relative;
+    top:55px;
+}
+#innerBox1{
+    background-color: red;
+    width: 20%;
+    height: 40%;
+    text-align: center;
+    position: relative;
+    float: right;
+    bottom: 110px;
+    left: 5px;
+    border: thick solid black;
+    /* border-style:inherit;
+    border-width: 10px;
+    border-color: black; */
+}
+#box2{
+    background-color: grey;
+    width: 40%;
+    height: 150px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: thick solid black;
+}
+#box2 p{
+    position: relative;
+    top:65px;
+}
+#innerBox2{
+    background-color: green;
+    width: 20%;
+    height: 50%;
+    text-align: center;
+    position: relative;
+    float: right;
+    bottom: 90px;
+    left: 5px;
+    border: thick solid black
+}
+#box3{
+    background-color: grey;
+    width: 83%;
+    height: 150px;
+    /* display: block;
+    position: absolute; */
+    margin-left: 70px;
+    margin-right: 5px;
+    margin-top: 10px;
+    border: thick solid black;
+}
+#box3 p{
+    position: relative;
+    top:75px;
+}
+#innerBox3{
+    background-color: blue;
+    width: 20%;
+    height: 50%;
+    text-align: center;
+    position: relative;
+    float: right;
+    bottom: 55px;
+    left: 4px;
+    border: thick solid black
+}
+}
+
+@media screen and (max-width: 767px) {
+    #boxes{
+        width: 80%;
+    }
+    #box1{
+    background-color: grey;
+    width: 50%;
+    /* min-width: 786px; */
+    height: 150px;
+    margin-left: 35px;
+    margin-right: 10px;
+    border: thick solid black;
+}
+#box1 p{
+    position: relative;
+    top:40px;
+}
+#innerBox1{
+    background-color: red;
+    width: 45%;
+    height: 30%;
+    text-align: center;
+    position: relative;
+    float: right;
+    bottom: 110px;
+    left: 5px;
+    border: thick solid black
+    /* border-style:inherit;
+    border-width: 10px;
+    border-color: black; */
+}
+#box2{
+    background-color: grey;
+    width: 50%;
+    height: 150px;
+    margin-left: 35px;
+    margin-right: 10px;
+    border: thick solid black;
+}
+#box2 p{
+    position: relative;
+    top:45px;
+}
+#innerBox2{
+    background-color: green;
+    width: 45%;
+    height: 30%;
+    text-align: center;
+    position: relative;
+    float: right;
+    bottom: 92px;
+    left: 4px;
+    border: thick solid black
+}
+#box3{
+    background-color: grey;
+    width: 50%;
+    height: 150px;
+    /* display: block;
+    position: absolute; */
+    margin-left: 35px;
+    margin-right: 10px;
+    border: thick solid black;
+}
+#box3 p{
+    position: relative;
+    top:70px;
+}
+#innerBox3{
+    background-color: blue;
+    width: 45%;
+    height: 30%;
+    text-align: center;
+    position: relative;
+    float: right;
+    bottom: 72px;
+    left: 4px;
+    border: thick solid black
+}
+}
